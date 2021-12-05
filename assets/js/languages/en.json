@@ -1,0 +1,24 @@
+{
+    "home": {
+        "text1": "There are no secret to success. It is the result of preparation, hard word and learning from failure",
+        "objective": "Objective",
+        "text2": "I am seeking a competitive and challenging environment where I can serve your organization and establish an enjoyable career for myself."
+    },
+    "profile": {
+        "title": "Some information about me",
+        "text1": "My name is Le Anh Duc. I am a 2001 student with many dreams and aspirations since childhood. But unfortunately most of those dreams have yet to come true. I am currently a student majoring in Information Technology at the Academy of Cryptography Techniques.",
+        "timeline": "Timeline",
+        "timeline-content": "I was born on February 5, 2001 in Nghe An. Born and raised here, now that I'm far away, I miss my hometown so much  In 2019, I graduated at Nguyen Duy Trinh High School and also started living away from  home to pursue college dreams from here.",
+        "pleasure": "Pleasure",
+        "pleasure-text1": "I like listening to music in the rain, like singing when I'm sad",
+        "pleasure-text2": "Talk to my best friend when i'm in a mood",
+        "hobby-passion": "Hobby, passion",
+        "hobby-passion_text1": "Hobbies are many, but playing games is probably my biggest hobby . Still the same now but no more time.",
+        "hobby-passion_text2": "I have a great passion for technology, like to learn, discover"
+    },
+    "resume": {
+        "timeline-qualification": "my qualification",
+        "timeline-workExperience": "my work experience",
+        "professionalSkill": "MY PROFESSIONAL SKILLS"
+    }
+}

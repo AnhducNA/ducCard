@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="assets/images/logo.png">
+    <title>Portfolio</title>
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic,700italic|Oswald:400,300,700'
+        rel='stylesheet' type='text/css'>
+
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Animsition : Hiệu ứng chuyển trang-->
+    <link rel="stylesheet" type="text/css" href="vendors/animsition/css/animsition.min.css">
+    <script type="text/javascript" src="vendors/animsition/js/jquery.animsition.min.js"></script>
+
+    <!-- PieProgress : xem  tiến trình của một hành động-->
+    <link rel="stylesheet" type="text/css" href="vendors/asPieProgress/progress.css">
+    <script type="text/javascript" src="vendors/asPieProgress/jquery-asPieProgress.min.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Bootstrap-js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+    <!-- main-js -->
+    <script src="assets/js/main.js"></script>
+</head>
+
+<body>
+    <a href="javascript: ;" id="burger-menu" class="burger-menu">
+        <span class="burger-menu__icon">
+            <i class="fas fa-bars"></i>
+        </span>
+    </a>
+    <nav id="navigation">
+        <div class="inner-table">
+            <div class="inner-cell">
+                <div class="nav-wrapper">
+                    <a href="javascript:;" id="close-menu" class="close-menu">
+                        <span class="close-menu__icon">
+                            <i class="far fa-window-close"></i>
+                        </span>
+                    </a>
+                    <div class="col-md-4 col-md-offset-4 mx-auto">
+                        <ul>
+                            <li>
+                                <a href="index.html" class=" at-link">
+                                    <span class="icon icon-home"><i class="fas fa-home"></i></span>
+                                    <span class="nav-title">About</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="profile.html" class=" at-link">
+                                    <span class="icon icon-profile"><i class="fas fa-user"></i></span>
+                                    <span class="nav-title">Profile</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="resume.html" class=" at-link">
+                                    <span class="icon icon-resume"><i class="far fa-file"></i></span>
+                                    <span class="nav-title">Resume</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="portfolio.html" class="active at-link">
+                                    <span class="icon icon-portfolio"><i class="fas fa-briefcase"></i> </span>
+                                    <span class="nav-title">Portfolio</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="blog.html" class="at-link">
+                                    <span class="icon icon-blog"><i class="fas fa-blog"></i></span>
+                                    <span class="nav-title">Blog</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="contacts.html" class=" at-link">
+                                    <span class="icon icon-phone"><i class="fas fa-phone"></i></span>
+                                    <span class="nav-title">Contact us</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <h4>Portfolio</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="portfolio-wrapper">
+        <!-- Header -->
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-10">
+                        <a href="index.html" id="logo" class="at-link">
+                            <img class="w-100 rounded-circle" src="assets/images/logo.png" alt="">
+                        </a>
+                        <div class="page-title">
+                            <div class="title-wrap">
+                                <h1>Portfolio</h1>
+                                <p class="lead">My Latest Work</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 text-right">
+                        <div class="burger-menu-wrapper">
+                            <a href="javascript: ;" class="burger-menu">
+                                <span class="burger-menu__icon">
+                                    <i class="fas fa-bars"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <!-- start main-content -->
+        <section class="content">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="portfolio-posts">
+
+                            <div class="folio-filter row justify-content-around">
+                                <a href="javascript:;" data-filter="*" class="col-lg-2 col-sm-3 col-12 btn active">Show All</a>
+                                <a href="javascript:;" data-filter=".brand" class="col-lg-2 col-sm-3 col-12 btn">Branding</a>
+                                <a href="javascript:;" data-filter=".marketing" class="col-lg-2 col-sm-3 col-12 btn">Marketing</a>
+                                <a href="javascript:;" data-filter=".game" class="col-lg-2 col-sm-3 col-12 btn">Game Design</a>
+                                <a href="javascript:;" data-filter=".website" class="col-lg-2 col-sm-3 col-12 btn">Websites</a>
+                            </div>
+
+                            <div class="folio-viewport row justify-content-around">
+                                <article class="folio-item col-md-4 col-sm-6 col-12 website">
+                                    <div class="entry-item" data-bg-image="assets/images/portfolio/grid_1.png">
+                                        <img src="assets/images/3x4.png" class="img-block" alt="image block">
+                                        <div class="entry-hover">
+                                            <span class="inner-table">
+                                                <span class="inner-cell">
+                                                    <h3>Bottle Mockup</h3>
+                                                    <span class="category">Website</span>
+                                                    <a href="portfolio-single.html" class="permalink at-link"><i
+                                                            class="fa fa-angle-right"></i></a>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="folio-item col-md-4 col-sm-6 col-12 game">
+                                    <div class="entry-item" data-bg-image="assets/images/portfolio/grid_2.png">
+                                        <img src="assets/images/3x4.png" class="img-block" alt="image block">
+                                        <div class="entry-hover">
+                                            <span class="inner-table">
+                                                <span class="inner-cell">
+                                                    <h3>Paper Bag Mockup</h3>
+                                                    <span class="category">Game</span>
+                                                    <a href="portfolio-single.html" class="permalink at-link"><i
+                                                            class="fa fa-angle-right"></i></a>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="folio-item col-md-4 col-sm-6 col-12 brand marketing">
+                                    <div class="entry-item" data-bg-image="assets/images/portfolio/grid_3.png">
+                                        <img src="assets/images/3x4.png" class="img-block" alt="image block">
+                                        <div class="entry-hover">
+                                            <span class="inner-table">
+                                                <span class="inner-cell">
+                                                    <h3>Chair Mockup</h3>
+                                                    <span class="category">Marketing</span>
+                                                    <a href="portfolio-single.html" class="permalink at-link"><i
+                                                            class="fa fa-angle-right"></i></a>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="folio-item col-md-4 col-sm-6 col-12 game brand">
+                                    <div class="entry-item" data-bg-image="assets/images/portfolio/grid_4.png">
+                                        <img src="assets/images/3x4.png" class="img-block" alt="image block">
+                                        <div class="entry-hover">
+                                            <span class="inner-table">
+                                                <span class="inner-cell">
+                                                    <h3>T-Shirt Mockup</h3>
+                                                    <span class="category">Game</span>
+                                                    <a href="portfolio-single.html" class="permalink at-link"><i
+                                                            class="fa fa-angle-right"></i></a>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="folio-item col-md-4 col-sm-6 col-12 marketing website">
+                                    <div class="entry-item" data-bg-image="assets/images/portfolio/grid_5.png">
+                                        <img src="assets/images/3x4.png" class="img-block" alt="image block">
+                                        <div class="entry-hover">
+                                            <span class="inner-table">
+                                                <span class="inner-cell">
+                                                    <h3>Bottle Mockup</h3>
+                                                    <span class="category">Marketing</span>
+                                                    <a href="portfolio-single.html" class="permalink at-link"><i
+                                                            class="fa fa-angle-right"></i></a>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="folio-item col-md-4 col-sm-6 col-12 game marketing">
+                                    <div class="entry-item" data-bg-image="assets/images/portfolio/grid_6.png">
+                                        <img src="assets/images/3x4.png" class="img-block" alt="image block">
+                                        <div class="entry-hover">
+                                            <span class="inner-table">
+                                                <span class="inner-cell">
+                                                    <h3>Book Mockup</h3>
+                                                    <span class="category">Branding</span>
+                                                    <a href="portfolio-single.html" class="permalink at-link"><i
+                                                            class="fa fa-angle-right"></i></a>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="folio-item col-md-4 col-sm-6 col-12 website brand">
+                                    <div class="entry-item" data-bg-image="assets/images/portfolio/grid_7.png">
+                                        <img src="assets/images/3x4.png" class="img-block" alt="image block">
+                                        <div class="entry-hover">
+                                            <span class="inner-table">
+                                                <span class="inner-cell">
+                                                    <h3>Paper Mockup</h3>
+                                                    <span class="category">Branding</span>
+                                                    <a href="portfolio-single.html" class="permalink at-link"><i
+                                                            class="fa fa-angle-right"></i></a>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="folio-item col-md-4 col-sm-6 col-12 brand website">
+                                    <div class="entry-item" data-bg-image="assets/images/portfolio/grid_8.png">
+                                        <img src="assets/images/3x4.png" class="img-block" alt="image block">
+                                        <div class="entry-hover">
+                                            <span class="inner-table">
+                                                <span class="inner-cell">
+                                                    <h3>T-Shirt Mockup</h3>
+                                                    <span class="category">Website</span>
+                                                    <a href="portfolio-single.html" class="permalink at-link"><i
+                                                            class="fa fa-angle-right"></i></a>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="folio-item col-md-4 col-sm-6 col-12 game marketing">
+                                    <div class="entry-item" data-bg-image="assets/images/portfolio/grid_9.png">
+                                        <img src="assets/images/3x4.png" class="img-block" alt="image block">
+                                        <div class="entry-hover">
+                                            <span class="inner-table">
+                                                <span class="inner-cell">
+                                                    <h3>Willow Mockup</h3>
+                                                    <span class="category">Marketing</span>
+                                                    <a href="portfolio-single.html" class="permalink at-link"><i
+                                                            class="fa fa-angle-right"></i></a>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </article>
+
+
+                            </div>
+
+
+                            <p class="text-center">
+                                <br>
+                                <a href="javascript:;" class="btn">see more works</a>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+        // $('[data-bg-image]').each(function () {
+        //     $(this).css({ 'background-image': 'url(' + $(this).data('bg-image') + ')' });
+        // });
+    </script>
+</body>
+
+</html>

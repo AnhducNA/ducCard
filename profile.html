@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" sizes="16x16" href="assets/assets/images/logo.png">
+	<title>Profile</title>
+
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic,700italic|Oswald:400,300,700'
+		rel='stylesheet' type='text/css'>
+
+	<!-- Include jQuery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<!-- Bootstrap css-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<!-- Fontawesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<!-- Animsition : Hiệu ứng chuyển trang-->
+	<link rel="stylesheet" type="text/css" href="vendors/animsition/css/animsition.min.css">
+	<script type="text/javascript" src="vendors/animsition/js/jquery.animsition.min.js"></script>
+
+	<!-- PieProgress : xem  tiến trình của một hành động-->
+	<link rel="stylesheet" type="text/css" href="vendors/asPieProgress/progress.css">
+	<script type="text/javascript" src="vendors/asPieProgress/jquery-asPieProgress.min.js"></script>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Bootstrap-js -->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+		integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+		integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+		crossorigin="anonymous"></script>
+
+	<!-- language-switch -->
+	<script src="assets/js/i18next.min.js"></script>
+	<script src="assets/js/switch-language.js"></script>
+
+	<!-- main-js -->
+	<script src="assets/js/main.js"></script>
+</head>
+
+<body class="">
+	<a href="javascript: ;" id="burger-menu" class="burger-menu">
+		<span class="burger-menu__icon">
+			<i class="fas fa-bars"></i>
+		</span>
+	</a>
+	<nav id="navigation">
+		<div class="inner-table">
+			<div class="inner-cell">
+				<div class="nav-wrapper">
+					<a href="javascript:;" id="close-menu" class="close-menu">
+						<span class="close-menu__icon">
+							<i class="far fa-window-close"></i>
+						</span>
+					</a>
+					<div class="col-md-4 col-md-offset-4 mx-auto">
+						<ul>
+							<li>
+								<a href="index.html" class=" at-link">
+									<span class="icon icon-home"><i class="fas fa-home"></i></span>
+									<span class="nav-title">About</span>
+								</a>
+							</li>
+							<li>
+								<a href="profile.html" class="active at-link">
+									<span class="icon icon-profile"><i class="fas fa-user"></i></span>
+									<span class="nav-title">Profile</span>
+								</a>
+							</li>
+							<li>
+								<a href="resume.html" class="at-link">
+									<span class="icon icon-resume"><i class="far fa-file"></i></span>
+									<span class="nav-title">Resume</span>
+								</a>
+							</li>
+							<li>
+								<a href="portfolio.html" class="at-link">
+									<span class="icon icon-portfolio"><i class="fas fa-briefcase"></i> </span>
+									<span class="nav-title">Portfolio</span>
+								</a>
+							</li>
+							<li>
+								<a href="blog.html" class="at-link">
+									<span class="icon icon-blog"><i class="fas fa-blog"></i></span>
+									<span class="nav-title">Blog</span>
+								</a>
+							</li>
+							<li>
+								<a href="contacts.html" class="at-link">
+									<span class="icon icon-phone"><i class="fas fa-phone"></i></span>
+									<span class="nav-title">Contact us</span>
+								</a>
+							</li>
+						</ul>
+						<h4>Profile</h4>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div id="profile-wrapper">
+		<!-- Header -->
+		<header id="header" class="px-3">
+			<div class="row justify-content-around">
+				<div class="col-sm-6">
+					<a href="index.html" id="logo" class="at-link">
+						<img class="w-100 rounded-circle" src="assets/images/logo.png" alt="">
+					</a>
+					<div class="page-title">
+						<div class="title-wrap">
+							<h1>Profile</h1>
+							<p class="lead">About Myself</p>
+						</div>
+					</div>
+				</div>
+				<!-- d-flex justify-content-between align-items-center -->
+				<div class="col-sm-6 text-end row justify-content-around align-items-center">
+					<div class="col-8 ">
+						<div class="dropdown language-switch">
+							<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								<span class="language-switch-current">English</span>
+								<span class="caret"></span>
+							</a>
+
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<li><a role="button" class="english dropdown-item" href="javascript:;">English</a>
+								</li>
+								<li><a role="button" class="vietnam dropdown-item" href="javascript:;">Việt Nam</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="burger-menu-wrapper">
+							<a href="javascript: ;" class="burger-menu">
+								<span class="burger-menu__icon">
+									<i class="fas fa-bars"></i>
+								</span>
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</header>
+		<!-- start main-content -->
+		<section class="main-content">
+			<div class="inner-wrapper">
+				<div class="container">
+					<h2 class="title-lg text-center mt-3" data-i18n="profile.title">Some information about me</h2>
+					<p data-i18n="profile.text1">My name is Le Anh Duc. I am a 2001 student with many dreams and
+						aspirations since childhood. But
+						unfortunately most of those dreams have yet to come true.
+						I am currently a student majoring in Information Technology at the Academy of Cryptography
+						Techniques.</p>
+				</div>
+			</div>
+			<div class="featured py-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="feature-icon-wp">
+								<span class="feature-icon">
+									<i class="far fa-clock"></i>
+								</span>
+							</div>
+							<h3 class="title" data-i18n="profile.timeline">Timeline</h3>
+							<p>
+								<span data-i18n="profile.timeline-content">I was born on February 5, 2001 in Nghe An.
+									Born and raised here, now that I'm far
+									away, I miss my hometown so much<br />
+									In 2019, I graduated at Nguyen Duy Trinh High School and also started living away
+									from home to pursue college dreams from here.</span> <i class="fa fa-home"></i>
+							</p>
+						</div>
+						<div class="col-md-4">
+							<div class="feature-icon-wp">
+								<span class="feature-icon">
+									<i class="fa fa-bolt"></i>
+								</span>
+							</div>
+							<h3 class="title" data-i18n="profile.pleasure">Pleasure</h3>
+							<p>
+								<span data-i18n="profile.pleasure-text1">
+									I like listening to music in the rain, like singing when I'm sad
+								</span>
+								<i class="fas fa-music"></i> <br />
+								<span data-i18n="profile.pleasure-text2">
+									Talk to my best friend when i'm in a mood</span>
+								<i class="fas fa-grin-tears"></i>
+							</p>
+						</div>
+						<div class="col-md-4">
+							<div class="feature-icon-wp">
+								<span class="feature-icon">
+									<i class="fa fa-star"></i>
+								</span>
+							</div>
+							<h3 class="title" data-i18n="profile.hobby-passion">Hobby, passion</h3>
+							<p>
+								<span data-i18n="profile.hobby-passion_text1">Hobbies are many, but playing games is
+									probably my biggest hobby . Still the same
+									now but no more time.</span>
+								<br />
+								<span data-i18n="profile.hobby-passion_text2">I have a great passion for technology,
+									like to learn, discover</span>
+								<i class="fa fa-laptop"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<p class="text-center">
+					<a href="javascript:;" class="btn">Hire me now!</a>
+				</p>
+			</div>
+		</section>
+		<!-- end main-content -->
+		<section class="content no-padding">
+			<div class="container">
+				<div class="row info-boxes">
+					<div class="ib-item" data-bg-color="#343434">
+						<img src="assets/images/4x3.png" class="img-block">
+						<span class="img-lg"
+							style="background-image:url(assets/images/pages/profile/icon-1.png);"></span>
+						<div class="entry-box">
+							<span class="icon-img"
+								style="background-image:url(assets/images/pages/profile/icon-1.png);"></span>
+							<h3>Name</h3>
+							<p>LE ANH DUC</p>
+						</div>
+					</div>
+					<div class="ib-item" data-bg-color="#3b3b3b">
+						<img src="assets/images/4x3.png" class="img-block">
+						<span class="img-lg"
+							style="background-image:url(assets/images/pages/profile/icon-2.png);"></span>
+						<div class="entry-box">
+							<span class="icon-img"
+								style="background-image:url(assets/images/pages/profile/icon-2.png);"></span>
+							<h3>d.o.b</h3>
+							<p>05 february 2001</p>
+						</div>
+					</div>
+					<div class="ib-item" data-bg-color="#343434">
+						<img src="assets/images/4x3.png" class="img-block">
+						<span class="img-lg"
+							style="background-image:url(assets/images/pages/profile/icon-3.png);"></span>
+						<div class="entry-box">
+							<span class="icon-img"
+								style="background-image:url(assets/images/pages/profile/icon-3.png);"></span>
+							<h3>phone</h3>
+							<p>+(84)345211778</p>
+						</div>
+					</div>
+					<div class="ib-item" data-bg-color="#3b3b3b">
+						<img src="assets/images/4x3.png" class="img-block">
+						<span class="img-lg"
+							style="background-image:url(assets/images/pages/profile/icon-4.png);"></span>
+						<div class="entry-box">
+							<span class="icon-img"
+								style="background-image:url(assets/images/pages/profile/icon-4.png);"></span>
+							<h3>email</h3>
+							<p>ducank961@gmail.com</p>
+						</div>
+					</div>
+					<div class="ib-item" data-bg-color="#343434">
+						<img src="assets/images/4x3.png" class="img-block">
+						<span class="img-lg"
+							style="background-image:url(assets/images/pages/profile/icon-5.png);"></span>
+						<div class="entry-box">
+							<span class="icon-img"
+								style="background-image:url(assets/images/pages/profile/icon-5.png);"></span>
+							<h3>website</h3>
+							<p>https://anhducna.google.com</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	</div>
+
+
+</body>
+
+</html>

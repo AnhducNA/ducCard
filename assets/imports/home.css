@@ -1,0 +1,36 @@
+.fixed-menu #burger-menu{
+    display: block;
+}
+/* contents socials */
+ul.socials {
+    list-style-type: none;
+    display: block;
+    padding-left: 0px;
+    text-align: left;
+}
+
+ul.socials li {
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-right: 3px;
+}
+
+ul.socials li a {
+    font-size: 14px;
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+    background-color: #333333;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+ul.socials li a:hover {
+    background-color: #4ac3bf;
+}

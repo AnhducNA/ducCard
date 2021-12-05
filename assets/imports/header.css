@@ -1,0 +1,95 @@
+/* Page Header */
+
+#header {
+    /* height: 158px; */
+    background-color: #f6f6f6;
+    width: 100%;
+}
+
+#header a:hover {
+    text-decoration: none;
+}
+
+#header #logo {
+    width: 88px;
+    margin-right: 32px;
+    float: left;
+}
+
+#header #logo.no-logo {
+    text-indent: 0px;
+}
+
+#header .page-title {
+    display: table;
+}
+
+#header .page-title .title-wrap {
+    display: table-cell;
+    height: 158px;
+    vertical-align: middle;
+}
+
+#header .page-title h1 {
+    margin: 0px;
+    font-family: 'Oswald';
+    font-size: 24px;
+    font-weight: normal;
+    color: #4ac3bf;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+#header .page-title .lead {
+    font-family: 'Oswald';
+    font-weight: 100;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0px;
+    color: #333333;
+}
+
+#header .burger-menu-wrapper{
+    line-height: 150px;
+    text-align: right;
+}
+
+#header .burger-menu {
+    display: inline-block;
+    width: 24px;
+}
+
+#header .menu-pager {
+    display: block;
+    float: right;
+}
+
+#header .menu-pager li {
+    display: inline-block;
+    line-height: 158px;
+    margin-left: 5px;
+}
+
+#header .menu-pager li a {
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 38px;
+    text-align: center;
+    color: #333333;
+    border: 2px solid #333333;
+}
+
+#header .menu-pager li a i {
+    font-size: 24px;
+    position: relative;
+    top: 1px;
+}
+
+#header .menu-pager li a:hover {
+    color: #4ac3bf;
+    border-color: #4ac3bf;
+}

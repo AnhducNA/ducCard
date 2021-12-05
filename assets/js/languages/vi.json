@@ -1,0 +1,24 @@
+{
+    "home": {
+        "text1": "Không có bí mật nào tạo ra sự thành công. Đó chỉ là kết quả của sự chuẩn bị , làm việc hết sức mình và rút ra kinh nghiệm từ những thất bại.",
+        "objective": "Mục tiêu",
+        "text2": "Tôi đang tìm kiếm một môi trường cạnh tranh và đầy thử thách, nơi tôi có thể phục vụ tổ chức của bạn và thiết lập một sự nghiệp thú vị cho bản thân."
+    },
+    "profile": {
+        "title": "Vài thông tin về tôi",
+        "text1": "Tôi tên là Lê Anh Đức, là một nam sinh 2k1 với nhiều ước mơ và khát vọng từ thuở bé, nhưng tiếc thay hầu hết những ước mơ đó đến nay vẫn chưa trở thành hiện thực. Tôi hiện đang là sinh viên ngành Công nghệ thông tin tại trường Học Viện Kỹ Thuật Mật Mã",
+        "timeline": "Mốc thời gian",
+        "timeline-content": "Tôi sinh ngày 05/02/2001 tại quê nghèo đầy nắng và gió Nghệ An. Sinh ra và lớn lên ở đây, giờ đi xa mới thấy nhớ quê hương lạ. Năm 2019, tôi tốt nghiệp THPT tại trường THPT Nguyễn Duy Trinh và cũng bắt đầu cuộc sống xa nhà để theo đuổi ước mơ đại học từ đây.",
+        "pleasure": "Tính cách",
+        "pleasure-text1": "Tôi thích nghe nhạc những lúc mưa, thích hát khi buồn",
+        "pleasure-text2": "Nói chuyện với bạn thân những lúc tâm trạng",
+        "hobby-passion": "Sở thích, đam mê",
+        "hobby-passion_text1": "Sở thích thì nhiều vô cùng nhưng có lẽ chơi điện tử là thú vui lớn nhất của tôi . Bây giờ vẫn vậy nhưng không có thời gian nữa.",
+        "hobby-passion_text2": "Tôi có niềm đam mê lớn với công nghệ, thích học hỏi, khám phá "
+    },
+    "resume": {
+        "timeline-qualification": "Trình độ chuyên môn",
+        "timeline-workExperience": "Kinh nghiệm làm việc",
+        "professionalSkill": "KỸ NĂNG CHUYÊN NGHIỆP"
+    }
+}

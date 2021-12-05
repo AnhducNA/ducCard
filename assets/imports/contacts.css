@@ -1,0 +1,30 @@
+/* address */
+
+address {
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Lato';
+    font-weight: normal;
+}
+
+address i {
+    margin-right: 15px;
+}
+
+address .address-icon {
+    width: 12px;
+}
+
+address table {
+    width: 100%;
+}
+
+address table td {
+    vertical-align: middle;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+address table td:first-child {
+    vertical-align: top;
+}

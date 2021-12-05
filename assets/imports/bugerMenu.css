@@ -1,0 +1,130 @@
+/* burger-menu */
+#burger-menu {
+    position: fixed;
+    top: 3em;
+    left: 3em;
+    z-index: 100;
+    display: none;
+}
+
+.burger-menu span.burger-menu__icon {
+    color: black;
+    font-size: 30px;
+}
+
+/* Close Current Page Button */
+.close-menu {
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.close-menu span.close-menu__icon {
+    font-size: 50px;
+    color: #fff;
+}
+
+
+/* Main Navigation */
+#navigation {
+    position: fixed;
+    background-color: rgba(74, 195, 191, 0.9);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 900;
+    display: none;
+}
+
+
+#navigation .inner-table .inner-cell {
+    text-align: center;
+}
+
+#navigation .nav-wrapper .row>div {
+    position: relative;
+}
+
+#navigation .nav-wrapper ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    padding-top: 60px;
+    padding-bottom: 105px;
+    overflow: hidden;
+}
+
+#navigation .nav-wrapper ul li {
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+#navigation .nav-wrapper ul li:last-child {
+    clear: right;
+}
+
+#navigation .nav-wrapper ul li a {
+    width: 83px;
+    height: 83px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+#navigation .nav-wrapper ul li a i {
+    position: relative;
+    display: block;
+    font-size: 38px;
+    line-height: 83px;
+    top: -1px;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+#navigation .nav-wrapper ul li a img {
+    height: 36px;
+    line-height: 83px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    margin-top: -19px;
+    width: 100%;
+    left: 1px;
+}
+
+#navigation .nav-wrapper ul li a.active,
+#navigation .nav-wrapper ul li a:hover {
+    background-color: #ffffff;
+    text-decoration: none;
+    transform: scale(1.2);
+}
+
+#navigation .nav-wrapper ul li a.active i,
+#navigation .nav-wrapper ul li a:hover i {
+    color: #4ac3bf;
+}
+
+#navigation .nav-wrapper h4 {
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size: 75px;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    color: #ffffff;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
